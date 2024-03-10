@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+    height: 50px;
+  width: 50px;
+}
+
+.red {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+}
+</style>
+<table>
+  <thead>
+    <tr>
+      <th><h1>Name</h1></th>
+      <th><h1>Rank</h1></th>
+      <th><h1>Status</h1></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h1>Alice</h1></td>
+      <td><h1>Captain</h1></td>
+      <td><span class="status green"></span></td>
+    </tr>
+    <tr>
+      <td><h1>Bob</h1></td>
+      <td><h1>Lieutenant</h1></td>
+      <td><span class="status red"><h1></h1></span></td>
+    </tr>
+    <!-- Add more rows here -->
+  </tbody>
+</table>
